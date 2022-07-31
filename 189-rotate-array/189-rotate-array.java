@@ -8,36 +8,9 @@ class Solution
         {
             return;
         }
-        else
-        {
-            if(n>k)
+         else
             {
-                x=n-k;
-        int[] back=new int[k];
-        int[] front=new int[x];
-        for(i=n-k;i<n;i++)
-        {
-            back[l]=nums[i];
-            l++;
-        }
-        for(i=0;i<n-k;i++)
-        {
-            front[i]=nums[i];
-        }
-        for(i=0;i<k;i++)
-        {
-            nums[i]=back[i];
-        }
-        for(i=k;i<n;i++)
-        {
-            nums[i]=front[m];
-            m++;
-        }
-       return;
-     }
-            else
-            {
-                k=k%n;
+                k = k % n;
         int[] back=new int[k];
         int[] front=new int[n-k];
         for(i=n-k;i<n;i++)
@@ -59,7 +32,7 @@ class Solution
             m++;
         }
        return;
-       }
      }
    }
 }
+
