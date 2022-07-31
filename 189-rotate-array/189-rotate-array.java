@@ -1,14 +1,18 @@
-class Solution {
-    public void rotate(int[] nums, int k) {
+class Solution 
+{
+    public void rotate(int[] nums, int k) 
+    {
         int i,j,x,l=0,m=0,n;
         n=nums.length;
         if(n<=1)
         {
             return;
         }
-        else{
+        else
+        {
             if(n>k)
-            { x=n-k;
+            {
+                x=n-k;
         int[] back=new int[k];
         int[] front=new int[x];
         for(i=n-k;i<n;i++)
@@ -30,7 +34,7 @@ class Solution {
             m++;
         }
        return;
-    }
+     }
             else
             {
                 k=k%n;
@@ -55,8 +59,7 @@ class Solution {
             m++;
         }
        return;
-            }
-        
-}
-}
+       }
+     }
+   }
 }
