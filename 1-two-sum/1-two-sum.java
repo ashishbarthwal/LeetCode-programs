@@ -11,11 +11,12 @@ class Solution {
                    sum=nums[i]+nums[j];
                     if(sum==target)
                     {
-                        return new int[] {i,j};
+                        int [] ans={i,j};
+                        return ans;
                     }
                 }
             }
         }
-        return new int[] {};
+        return null;
     }
 }
