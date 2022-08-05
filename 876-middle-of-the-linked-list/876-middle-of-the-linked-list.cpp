@@ -22,8 +22,7 @@ public:
         if(n==1)
             return head;
         else{
-        int x=n/2;
-        for(int i=1;i<=x;i++)
+        for(int i=1;i<=n/2;i++)
         {
             head=head->next;
         }
