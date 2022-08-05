@@ -12,7 +12,7 @@ class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         ListNode *head = new ListNode();
-        ListNode *temp = head;       // Gonna need 2 to start
+        ListNode *dummy = head;       // Gonna need 2 to start
         int carry = 0;
          while(l1!=NULL || l2!=NULL || carry)
          {
@@ -29,8 +29,8 @@ public:
              sum  = sum + carry;   //gotta have carry before sum coz it's 0
              carry = sum/10;
              ListNode *node =new ListNode(sum%10);
-             temp->next = node;    //placing the new node
-             temp = temp->next;    //temp comes to the current sum node
+             dummy->next = node;    //placing the new node
+             dummy = dummy->next;    //temp comes to the current sum node
          }
         return head->next;
     }
