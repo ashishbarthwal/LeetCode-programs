@@ -19,14 +19,10 @@ public:
             n++;
         }
         n++;
-        if(n==1)
-            return head;
-        else{
         for(int i=1;i<=n/2;i++)
         {
             head=head->next;
         }
         return head;
     }
-  }
 };
