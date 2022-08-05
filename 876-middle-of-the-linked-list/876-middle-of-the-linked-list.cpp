@@ -23,7 +23,7 @@ public:
             return head;
         else{
         int x=n/2;
-        for(int i=0;i<x;i++)
+        for(int i=1;i<=x;i++)
         {
             head=head->next;
         }
