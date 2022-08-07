@@ -17,6 +17,6 @@ public:
             else
                 beg = mid+1;
         }
-        return pos; 
+        return beg; 
     }
 };
