@@ -7,7 +7,7 @@ public:
     
     //if(x != abs(x)) return false;
     
-    vector<int> v{};
+    vector<int> v;
     while(x)
     {
         v.push_back(x%10);
