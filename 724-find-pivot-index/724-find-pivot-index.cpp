@@ -16,15 +16,13 @@ public:
         while(pivot<n-1)
         {
             if(leftSum == rightSum)
-                return pivot;
-            
+                return pivot;          
             leftSum += nums[pivot];
             pivot++;
             rightSum -= nums[pivot];
         }
-        if(leftSum == rightSum)
-            return pivot;
-        
+      if(leftSum == rightSum)
+            return pivot;  
         return -1;
     }
 };
