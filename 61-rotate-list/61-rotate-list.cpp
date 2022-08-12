@@ -14,7 +14,7 @@ public:
         int count=0;
         if(head==NULL)
         {
-            return head;
+            return NULL;
         }
         else if(head->next==NULL)
         {
