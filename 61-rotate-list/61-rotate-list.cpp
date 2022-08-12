@@ -21,7 +21,7 @@ public:
             return head;
         }
         else{
-            long long int limit=1;
+            int limit=1;
             ListNode* lim= head;
             while(lim->next!=NULL)
             {
