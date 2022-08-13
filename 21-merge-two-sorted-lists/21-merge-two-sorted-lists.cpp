@@ -32,7 +32,7 @@ public:
             dummy->next=list1;
             dummy=dummy->next;
         }
-        else if(list2!=NULL)
+        else 
         {
             dummy->next=list2;
             dummy=dummy->next;
