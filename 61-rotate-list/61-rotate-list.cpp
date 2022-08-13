@@ -21,9 +21,9 @@ public:
             return head;
         }
         else{
-            int limit=1;
+            int limit=0;
             ListNode* lim= head;
-            while(lim->next!=NULL)
+            while(lim!=NULL)
             {
                 lim=lim->next;
                 limit++;
