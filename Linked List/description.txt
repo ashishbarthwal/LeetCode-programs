@@ -1,1 +1,1 @@
-These are the problems of the data structure linked list
+These are the problems related to the linked list data structure
