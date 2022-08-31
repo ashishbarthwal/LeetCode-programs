@@ -1,1 +1,1 @@
-These are problems that primarily focus on mathematics
+These are problems that primarily focus on Mathematics
